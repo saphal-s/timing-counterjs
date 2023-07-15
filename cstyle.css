@@ -1,0 +1,32 @@
+.clock {
+    text-align: center;
+    background-color: #282c34;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .clock {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 370px;
+    background-color: #14469f;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+  
+  .clock section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  .clock section p {
+    font-size: 4rem;
+  }
+  .clock section small {
+    color: silver;
+    text-shadow: none;
+  }
